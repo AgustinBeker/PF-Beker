@@ -29,7 +29,7 @@
 		align-items: center;
 		h1 {
 			padding-top: 30px;
-			font-family: 'Inter';
+			font-family: $tipografia-principal;
 			color: #FFFFFF;
 			font-style: normal;
 			font-weight: 200;
@@ -38,7 +38,7 @@
 			text-decoration: underline;
 		}
 		p {
-			font-family: 'Inter';
+			font-family: $tipografia-principal;
 			color: #FFFFFF;
 			font-style: normal;
 			font-weight: 200;
@@ -98,7 +98,7 @@
 		align-items: center;
 		h1 {
 			padding-top: 30px;
-			font-family: 'Inter';
+			font-family: $tipografia-principal;
 			color: #FFFFFF;
 			font-style: normal;
 			font-weight: 200;
@@ -107,7 +107,7 @@
 			text-decoration: underline;
 		}
 		p {
-			font-family: 'Inter';
+			font-family: $tipografia-principal;
 			color: #FFFFFF;
 			font-style: normal;
 			font-weight: 200;
@@ -135,7 +135,7 @@
 			li {
 				a {
 					position: relative;
-					font-family: 'Inter';
+					font-family: $tipografia-principal;
 					font-style: normal;
 					font-weight: 200;
 					font-size: 16px;

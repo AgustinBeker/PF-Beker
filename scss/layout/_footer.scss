@@ -9,7 +9,7 @@
 	margin-top: auto;
 	p {
 		color: #FFFFFF;
-		font-family: 'Inter';
+		font-family: $tipografia-principal;
 		font-style: normal;
 		font-weight: 200;
 		font-size: 10px;
@@ -17,9 +17,7 @@
 	}
 }
 .container-footer {
-	display: flex;
-	justify-content: center;
-	display: flex;
+	@include flex-justify-center;
 	top: 50%;
 	left: 50%;
 	padding-left: 0;

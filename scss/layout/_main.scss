@@ -8,8 +8,7 @@ body {
 // Comienzo Index
 
 .container {
-	display: flex;
-	justify-content: center;
+	@include flex-justify-center;
 	margin-top: 10px;
 }
 .img-principal {
@@ -19,10 +18,9 @@ body {
 	height: 292px;
 }
 .container-imagenes {
+	@include flex-justify-center;
 	width: 100%;
-	display: flex;
 	gap: 100px;
-	justify-content: center;
 	margin-top: 10px;
 }
 .cartel-imagen {
@@ -37,9 +35,8 @@ body {
 	height: 250px;
 }
 .cartel {
-	display: flex;
+	@include flex-justify-center;
 	width: 50%;
-	justify-items: center;
 	align-items: center;
 	h2{
 		color: white;
@@ -51,8 +48,7 @@ body {
 // Fin Index
 
 .container-burger {
-	display: flex;
-	justify-content: center;
+	@include flex-justify-center;
 	gap: 150px;
 	padding-top: 50px;
 	width: 100%;
@@ -105,7 +101,7 @@ body {
 		span {
 			z-index: -1;
 			display: block;
-			font-family: 'Inter';
+			font-family: $tipografia-principal;
 			font-style: normal;
 			width: 300px;
 			margin: 0;
@@ -171,7 +167,7 @@ figure {
 	width: 50%;
 	h1 {
 		padding-top: 30px;
-		font-family: 'Inter';
+		font-family: $tipografia-principal;
 		color: #FFFFFF;
 		font-style: normal;
 		font-weight: 200;
@@ -218,7 +214,7 @@ figure {
 	text-align: left;
 }
 .nosotros {
-	font-family: 'Inter';
+	font-family: $tipografia-principal;
 	font-style: normal;
 	font-weight: 200;
 	font-size: 75px;
@@ -227,7 +223,7 @@ figure {
 	color: #FFFFFF;
 }
 .texto-nosotros {
-	font-family: 'Inter';
+	font-family: $tipografia-principal;
 	font-style: normal;
 	font-weight: 200;
 	font-size: 22px;
@@ -251,7 +247,7 @@ figure {
 .consulta {
 	text-align: center;
 	margin-bottom: 30px;
-	font-family: 'Inter';
+	font-family: $tipografia-principal;
 	color: #FFFFFF;
 	font-style: normal;
 }
@@ -262,7 +258,7 @@ figure {
 	width: 80%;
 }
 .form-label {
-	font-family: 'Inter';
+	font-family: $tipografia-principal;
 	color: #FFFFFF;
 	font-style: normal;
 	font-weight: 200;
@@ -271,7 +267,7 @@ figure {
 }
 .form-input {
 	margin-bottom: 10px;
-	font-family: 'Inter';
+	font-family: $tipografia-principal;
 	font-style: normal;
 	font-weight: 200;
 	font-size: 16px;
@@ -284,7 +280,7 @@ label.form-label {
 .form-textarea {
 	margin-bottom: 40px;
 	height: 100px;
-	font-family: 'Inter';
+	font-family: $tipografia-principal;
 	font-style: normal;
 	font-weight: 200;
 	font-size: 16px;
@@ -296,7 +292,7 @@ label.form-label {
 	align-items: center;
 	justify-content: center;
 	margin: 0 auto;
-	font-family: 'Inter';
+	font-family: $tipografia-principal;
 	font-style: normal;
 	font-weight: 200;
 	width: 100px;
