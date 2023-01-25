@@ -79,8 +79,8 @@ body {
 
 .cartel {
   display: flex;
-  justify-content: center;
   width: 50%;
+  justify-items: center;
   align-items: center; }
   .cartel h2 {
     color: white;
