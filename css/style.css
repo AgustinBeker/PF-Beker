@@ -82,10 +82,15 @@ body {
   width: 50%;
   justify-items: center;
   align-items: center; }
-  .cartel h2 {
+  .cartel h1 {
     color: white;
     text-align: center;
     padding-top: 15px; }
+
+h1 {
+  color: white;
+  text-align: center;
+  padding-top: 15px; }
 
 .container-burger {
   display: flex;

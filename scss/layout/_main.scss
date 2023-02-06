@@ -39,7 +39,7 @@ body {
     width: 50%;
     justify-items: center;
     align-items: center;
-	h2{
+	h1{
 		color: white;
 		text-align: center;
 		padding-top: 15px;
@@ -47,6 +47,12 @@ body {
 }
 
 // Fin Index
+
+h1{
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+}
 
 .container-burger {
 	@include flex-justify-center;
